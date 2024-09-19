@@ -1,0 +1,29 @@
+
+.section-header{
+    text-align: center;
+    h6{
+        display: inline-block;
+        font-size: 13px;
+        line-height: 18px;
+        padding: 5px 20px 3px 20px;
+        border-radius: 35px;
+        background-color: #f5bf9850;
+        color: $primaryColor;
+    }
+    h5{
+        font-family: $secondary-font;
+        font-size: 28px;
+        color: $blackColor;
+        font-weight: 700;
+        line-height: 40px;
+        padding: 4px 0 2px 0;
+    }
+    p{
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+  }
+
+
+  

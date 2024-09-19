@@ -1,0 +1,426 @@
+@media (min-width: 280px) and (max-width: 991.98px) {
+  .headerOffcanvas {
+    width: 300px;
+  }
+  .headerAccordion .accordion-item .accordion-button {
+    padding: 0 0 0 10px;
+  }
+  .headerOffcanvas .offcanvas-title img {
+    max-width: 40px;
+    margin-right: 10px;
+  }
+
+  .header {
+    padding-block: 15px 10px;
+  }
+  .header.active {
+    padding-block: 10px 8px;
+  }
+  .header.active .header-wrapper .header-logo img {
+    max-height: 38px;
+    max-width: 150px;
+  }
+  .header .header-wrapper .header-logo img {
+    max-height: 45px;
+    max-width: 200px;
+  }
+  .common-feature-section-wrapper .common-feature-content {
+    padding-left: 0px;
+  }
+
+  .hero .home-wrapper .home-content h1 {
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .feature-card img {
+    height: auto;
+    max-height: 340px;
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+  .counter .counter-wrapper h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .counter .counter-wrapper h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .counter .counter-wrapper .counter-wrap {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .perticipate .perticipate-wrapper h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .partner h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .implementing h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .perticipate .perticipate-wrapper .perticipate-card {
+    height: auto;
+    margin-top: 18px;
+  }
+  .perticipate .perticipate-wrapper .perticipate-card .card-content h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .partner .partner-wrapper .partner-card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 16px;
+  }
+  .contact {
+    padding: 40px 20px;
+  }
+  .contact .contact-wrapper {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .contact .contact-wrapper .contact-form form {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .contact h2 {
+    font-size: 26px;
+  }
+  .contact .contact-wrapper h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .footer-main .footer-profile {
+    margin-top: 18px;
+    padding: 40px 20px 10px 20px;
+    border-radius: 26px;
+    text-align: center;
+    height: auto;
+  }
+  .footer-main .footer-nav-part h4 {
+    margin-top: 10px;
+  }
+  .footer-bottom span {
+    font-size: 13px;
+  }
+
+  .sub-hero {
+    padding: 120px 0 70px 0;
+  }
+  .sub-hero .sub-hero-contant .page-route {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .event-search .form-controller {
+    padding: 10px 20px;
+  }
+  .event-search button {
+    padding: 0 15px;
+    font-size: 13px;
+  }
+
+  .event-content {
+    margin: 20px 0;
+  }
+  .event-item .event-img {
+    margin-bottom: 45px;
+  }
+  .mentor-hero .mentor-hero-wrapper .home-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .mentor-sub-hero h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .mentor-sub-hero .apply-btn {
+    height: 50px;
+    padding: 0 60px;
+    border-radius: 35px;
+    font-size: 15px;
+  }
+  .sub-hero .sub-hero-contant .apply-btn {
+    height: 50px;
+    padding: 0 60px;
+    border-radius: 35px;
+    font-size: 15px;
+  }
+  .mentor-feature-wrapper .mentor-feature-img img {
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  .common-feature-img {
+    margin: 20px 0;
+  }
+  .faq {
+    padding: 20px 0;
+  }
+  .faq .faq-wrapper .faq-wrap .accordion-header .accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .faq
+    .faq-wrapper
+    .faq-wrap
+    .accordion-header
+    .accordion-button:not(.collapsed) {
+    font-size: 18px;
+  }
+  .faq .faq-wrapper .faq-wrap .accordion-body p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .custom-table {
+    overflow-y: scroll;
+  }
+  .faq .faq-wrapper .faq-text {
+    font-size: 120px;
+    line-height: 120px;
+    margin-top: 150px;
+  }
+  .dark-section-header h2 {
+    font-size: 20px;
+  }
+  .upcoming-gallary .event-gallar-slider .event-img {
+    height: 230px;
+  }
+  .event-register-card {
+    margin-top: 30px;
+  }
+  .event-register-card h5 {
+    font-size: 14px;
+  }
+  .schedule-wrapper {
+    padding: 30px 10px 10px 10px;
+  }
+  .event-perform-item {
+    padding: 15px 15px 7px 15px;
+  }
+  .event-perform-item h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .speaker-modal .modal-body .speaker-profile img {
+    height: 100px;
+    width: 100px;
+  }
+  .speaker-modal .modal-body {
+    padding: 0 12px 15px 12px;
+  }
+  .mission-vission-subHero h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .mission-vission-subHero .mission-video {
+    height: auto;
+    max-height: 350px;
+  }
+  .general-card {
+    height: auto;
+  }
+  .general-card .g-card-img {
+    height: 220px;
+  }
+  .mission {
+    margin-top: 40px;
+  }
+  .news-content {
+    margin-top: 15px;
+  }
+  .sub-hero .sub-hero-contant .apply-btn {
+    height: 50px;
+    padding: 0 60px;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .sub-about {
+    padding: 60px 0;
+  }
+  .sub-about h3 {
+    text-align: center !important;
+  }
+  .text-typography-wrapper h2 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .mentor-hero {
+    padding: 120px 0;
+  }
+  .mentor-hero-wrapper .home-img {
+    margin-top: 20px;
+  }
+  .mentor-hero .mentor-hero-wrapper .home-content .mentro-shape {
+    display: none;
+  }
+  .flat-card-wrapper .flat-card-wrap {
+    height: auto;
+  }
+  .coach-card {
+    padding: 20px 10px 10px 20px;
+  }
+  .mentor-event .mentor-event-wrapper .mentor-event-left {
+    padding-left: 0px;
+    margin-bottom: 40px;
+  }
+  .mentor-event .mentor-event-wrapper {
+    padding: 30px 20px;
+  }
+  .mentor-event .mentor-event-wrapper .mentor-event-left h5 {
+    padding-top: 60px;
+  }
+  .event-p-info {
+    display: grid !important;
+  }
+  .mentor-event-item {
+    display: grid;
+  }
+  .mentor-event-item .event-data {
+    padding-left: 0px;
+    margin-top: 12px;
+  }
+  .text-typography-wrapper p {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .program h2 {
+    font-size: 28px;
+  }
+  .media {
+    padding: 30px 10px;
+  }
+  .event-about-wrapper .event-about-img img {
+    height: auto;
+    max-height: 350px;
+  }
+  .event-about-wrapper .event-about-content {
+    padding: 25px;
+  }
+  .mentor-event .mentor-event-wrapper .mentor-event-shape {
+    display: none;
+  }
+  .event-calender-navigator .calender-navigator-button {
+    margin-top: 20px;
+  }
+  .event-calender-item-wrapper .date-box {
+    margin: 0 auto 20px;
+  }
+  .event-calender-item {
+    height: auto;
+  }
+  .perticipate .perticipate-wrapper .perticipate-card {
+    display: grid;
+    height: auto;
+  }
+  .perticipate .perticipate-wrapper .perticipate-card .perticipate-img img {
+    width: 100%;
+    height: 200px;
+  }
+  .perticipate .perticipate-wrapper .perticipate-img::before {
+    display: none;
+  }
+  .perticipate
+    .perticipate-wrapper
+    .perticipate-card
+    .perticipate-img
+    .overly-content {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .perticipate .perticipate-wrapper .perticipate-card .card-content {
+    padding: 12px 12px 12px 12px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 339.98px) {
+  .hero .home-wrapper .home-content .home-buttons button {
+    padding: 9px 20px;
+    font-size: 13px;
+  }
+
+  .hero .home-wrapper .home-content p {
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .hero .home-wrapper .home-content h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .counter .counter-wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .perticipate .perticipate-wrapper .perticipate-card .perticipate-logo img {
+    width: 85px;
+  }
+  .perticipate .perticipate-wrapper .perticipate-card .card-content h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .contact {
+    padding: 40px 10px;
+  }
+  .contact .contact-wrapper .contact-form form {
+    padding: 16px 8px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 575.98px) {
+  .hero .swiper-button-prev {
+    display: none;
+  }
+  .hero .swiper-button-next {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .event-content {
+    margin: 0 0 20px 0;
+  }
+  .mentor-event-item {
+    display: flex;
+  }
+  .mentor-event-item .event-data {
+    padding-left: 8px;
+    margin-top: 0px;
+  }
+  .event-calender-navigator .calender-navigator-button {
+    margin-top: 0px;
+  }
+  .header .header-wrapper .social-item span {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .event-content {
+    margin: 0 0 20px 0;
+  }
+  .event-register-card {
+    margin-top: 0px;
+  }
+  .flat-card-wrapper .flat-card-wrap {
+    height: 380px;
+  }
+  .mentor-event .mentor-event-wrapper .mentor-event-left {
+    margin-bottom: 0px;
+  }
+  .mentor-event .mentor-event-wrapper {
+    padding: 70px 20px;
+  }
+  .event-calender-navigator .calender-navigator-button {
+    margin-top: 0px;
+  }
+}
+
+/* @media (min-width: 992px) and (max-width: 1199.98px) {
+} */

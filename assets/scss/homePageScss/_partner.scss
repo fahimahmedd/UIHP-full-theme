@@ -1,0 +1,31 @@
+.partner{
+    h2{
+        text-align: center;
+        font-weight: 600;
+        color: $blackColor;
+        letter-spacing: 1.6px;
+        font-family: $secondary-font;
+    }
+    .partner-wrapper{
+        padding-top: 10px;
+        .partner-card{
+            height: 130px;
+            width: 100%;
+            @include d-center;
+            padding: 20px;
+            border: 1px dashed $primary-border;
+            background-color: $whiteColor;
+            border-radius: 10px;
+            margin-top: 24px;
+            &:hover{
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            }
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+         }
+    }
+}
+

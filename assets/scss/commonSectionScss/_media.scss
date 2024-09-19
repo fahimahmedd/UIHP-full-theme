@@ -1,0 +1,25 @@
+.media {
+  .media-gallery {
+    max-width: 1000px;
+    margin: 60px auto 0;
+    padding: 50px 20px;
+    border-radius: 16px;
+    background-color: #4c2c8b96;
+    .gallery-img {
+      width: 100%;
+      margin-top: 10px;
+      position: relative;
+      img {
+        max-height: 450px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+      }
+      &::after {
+        @include after-content;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+      }
+    }
+  }
+}

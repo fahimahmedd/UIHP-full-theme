@@ -1,0 +1,63 @@
+.program{
+  h2{
+    @include h2-heading;
+  }
+
+  .program-wrapper{
+    max-width: 950px;
+    margin: 0 auto;
+    .program-card{
+        width: 100%;
+        border: 1px dashed $primary-border;
+        border-radius: 16px;
+        margin-top: 24px;
+        box-shadow: $primaryBoxShadow;
+        padding: 20px;
+        &:hover{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        h3{
+            font-weight: 600;
+        }
+        .program-action{
+            button{
+                @include button;
+                border-radius: 35px;
+                padding: 7px 30px;
+                margin-right: 12px;
+                &:first-child{
+                    background-color: $secondaryColor;
+                    &:hover{
+                        background-color: $primaryColor;
+                    }
+                }
+            }
+        }
+        .program-img{
+            img{
+                max-height: 70px;
+                width: auto;
+                object-fit: contain;
+            }
+        }
+    }
+  }
+}
+
+.about-program-wrapper{
+    margin-top: 30px;
+
+    .about-program-img{
+        height: 400px;
+        width: 100%;
+        background-color: #f3f3f3;
+        @include d-center;
+        border-radius: 16px;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            border-radius: 16px;
+        }
+    }
+}

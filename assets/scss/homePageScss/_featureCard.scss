@@ -1,0 +1,50 @@
+.feature-card{
+    position: relative;
+    margin-bottom: 24px;
+    &:hover .feature-car-img img{
+        transform: scale(1.04);
+        transition: $transition;
+    }
+    .feature-car-img{
+        position: relative;
+        overflow: hidden;
+        img{
+           height: 360px;
+           width: 100%;
+           object-fit: cover;
+        }   
+        &::after{
+            @include after-content;
+            background-color: rgba(0,0,0,0.3);
+        }
+    }
+   .feature-content{
+    padding: 12px;
+    .card-icon{
+        height: 70px;
+        width: 70px;
+        background-color: $primaryColor;
+        border-radius: 7px;
+        @include d-center;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        ion-icon{
+            font-size: 30px;
+            color: $whiteColor;
+        }
+    }
+    h4{
+        @include flex-wrap;
+        font-weight: 600 ;
+        ion-icon{
+          margin-left: 5px;
+        }
+      }
+      p{
+          font-size: 14px;
+          line-height: 22px;
+          color: $textColor;
+          @include text-ellips-2;
+      }
+   }
+}

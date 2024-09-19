@@ -1,0 +1,32 @@
+.mission{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    &::after {
+      position: absolute;
+      content: ""; 
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.6);
+      z-index: -1;
+    }
+
+    .mission-wrapper{
+        h2{
+            @include h2-heading;
+            color: $whiteColor;
+            text-align: start;
+        }
+        p{
+            color: #e9e3e3;
+            font-weight: 300;
+        }
+    }
+}

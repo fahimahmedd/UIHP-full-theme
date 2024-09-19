@@ -1,0 +1,114 @@
+.hero {
+  .hero-main {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 800px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+      display: flex;
+      align-items: center;
+    &::after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(#040404bc, #8b8b8bb9);
+      z-index: -1;
+    }
+  }
+
+  .home-wrapper {
+    // position: absolute;
+    // width: 100%;
+    // top: 50%;
+    // left: 0;
+    // transform: translateY(-50%);
+    // z-index: 1;
+    .home-content {
+      h1 {
+        color: $whiteColor;
+        font-size: 50px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        letter-spacing: 1.7px;
+        line-height: 60px;
+        font-family: $secondary-font;
+        ion-icon {
+          color: $secondaryColor;
+          font-size: 35px;
+        }
+      }
+      p {
+        color: $offwhiteColor;
+        font-size: 15px;
+        font-weight: 300;
+      }
+      .home-buttons {
+        margin-top: 40px;
+        button {
+          @include button;
+        }
+        .watch-video {
+          margin-left: 20px;
+          font-size: 15px;
+          color: $whiteColor;
+          cursor: pointer;
+          ion-icon {
+            color: $secondaryColor;
+            font-size: 45px;
+            margin-right: 3px;
+          }
+        }
+      }
+    }
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: 0.3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+  }
+  .swiper-pagination-bullet {
+    width: 18px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 10px;
+    background: $whiteColor;
+  }
+  .swiper-pagination-bullet-active {
+    height: 8px;
+    width: 40px;
+  }
+
+  .swiper-button-prev {
+    height: 50px;
+    width: 50px;
+    background-color: #f3f3f358;
+    border-radius: 50%;
+    z-index: 10;
+    &::after {
+      font-size: 22px;
+      color: $whiteColor;
+    }
+  }
+  .swiper-button-next {
+    height: 50px;
+    width: 50px;
+    background-color: #f3f3f359;
+    border-radius: 50%;
+    z-index: 10;
+    &::after {
+      font-size: 22px;
+      color: $whiteColor;
+    }
+  }
+}

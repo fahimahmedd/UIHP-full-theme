@@ -1,0 +1,280 @@
+.sub-hero{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    &::after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.6);
+      z-index: -1;
+    }
+    .sub-hero-contant{
+        .page-route{
+            font-size: 40px;
+            font-weight: 600;
+            text-transform: uppercase;
+            line-height: 52px;
+            color: $whiteColor;
+            letter-spacing: 1.3px;
+            word-wrap: break-word;
+            font-family: $secondary-font;
+        }
+        p{
+          font-weight: 300;
+        }
+        .apply-btn{
+            height: 55px;
+            padding: 0 90px;
+            background-color: #d9d9d987;
+            color: $whiteColor;
+            border-radius: 35px;
+            font-size: 18px;
+            margin-top: 40px;
+            border: 2px solid $whiteColor;
+            &:hover{
+                background-color: $primaryColor;
+                border: 2px solid $primaryColor;
+            }
+        }
+        .start-btn{
+          @include button;
+          border-radius: 35px;
+        }
+    }
+}
+
+.mission-vission-subHero{
+    background-color: #2828b9;
+    h2{
+        font-family: $secondary-font;
+        text-align: center;
+        font-weight: 600;
+    }
+    p{
+        font-weight: 300;
+    }
+
+    .mission-video{
+        max-width: 900px;
+        height: 450px;
+        margin: 30px auto 0;
+        position: relative;
+        img{
+            border-radius: 20px;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .overly-content{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            border-radius: 20px;
+            left: 0;
+            background-color: rgba(0,0,0,0.4);
+            @include d-center;
+            a{
+                ion-icon{
+                    color: $whiteColor;
+                    font-size: 70px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+// Mentor Sub Hero
+.mentor-hero {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 150px 0;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      background-image: linear-gradient( #717171bd , #F7F8F9 );
+      display: flex;
+      align-items: center;
+    .mentor-hero-wrapper {
+      z-index: 1;
+      padding-top: 30px;
+      .home-content {
+        position: relative;
+        z-index: 1;
+        h1 {
+          color: $blackColor;
+          font-size: 46px;
+          font-weight: 500;
+          display: flex; 
+          align-items: center;
+          flex-wrap: wrap;
+          line-height: 60px;
+          font-family: $secondary-font;
+          ion-icon {
+            color: $primaryColor;
+            font-size: 35px;
+          }
+        }
+        p{
+          color: $blackColor;
+          font-size: 14px;
+          font-weight: 300;
+        }
+        .home-buttons {
+          margin-top: 40px;
+          button {
+            @include button;
+          }
+          .watch-video {
+            font-size: 15px;
+            color: $blackColor;
+            cursor: pointer;
+            ion-icon {
+              color: $primaryColor;
+              font-size: 45px;
+              margin-right: 3px;
+            }
+          }
+        }
+        .mentro-shape{
+            position: absolute;
+            bottom: -80px;
+            right: 0;
+            img{
+                max-height: 160px;
+                width: auto;
+                object-fit: contain;
+            }
+        }
+      }
+    }
+  
+    .swiper-pagination {
+      position: absolute;
+      text-align: center;
+      transition: 0.3s opacity;
+      transform: translate3d(0, 0, 0);
+      z-index: 10;
+    }
+    .swiper-pagination-bullet {
+      width: 18px;
+      height: 8px;
+      display: inline-block;
+      border-radius: 10px;
+      background: $whiteColor;
+    }
+    .swiper-pagination-bullet-active {
+      height: 8px;
+      width: 40px;
+    }
+  
+    .swiper-button-prev {
+      height: 50px;
+      width: 50px;
+      background-color: #f3f3f358;
+      border-radius: 50%;
+      z-index: 10;
+      &::after {
+        font-size: 22px;
+        color: $whiteColor;
+      }
+    }
+    .swiper-button-next {
+      height: 50px;
+      width: 50px;
+      background-color: #f3f3f359;
+      border-radius: 50%;
+      z-index: 10;
+      &::after {
+        font-size: 22px;
+        color: $whiteColor;
+      }
+    }
+  }
+.banner-overly{
+    position: relative;
+    &::after{
+        @include after-content;
+        background-color: rgba(0,0,0,0.4);
+        z-index: -1;
+    }
+}
+
+
+.mentor-sub-hero{
+   background-color: #371F19;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0 100px 0;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  h2{
+      font-family: $secondary-font;
+      font-weight: 700;
+      line-height: 50px;
+  }
+  p{
+      font-weight: 300;
+  }
+  .apply-btn{
+    height: 55px;
+    padding: 0 90px;
+    background-color: #FFDDA9;
+    color: $secondaryColor;
+    border-radius: 35px;
+    font-size: 18px;
+    margin-top: 40px;
+    border: 2px solid #FFDDA9; 
+    &:hover{
+        background-color: $whiteColor;
+        border: 2px solid #FFDDA9;
+    }
+}
+.sub-hro-img{
+  @include d-center;
+  margin-top: 40px;
+  img{
+    max-height: 500px;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+}
+
+.job-list-wrapper{
+  margin-top: 40px;
+  .job-list-item{
+    text-align: center;
+    padding: 20px 20px 14px 20px;
+    border: 1px dashed #c3c3c379;
+    border-radius: 12px;
+    background-color: #bebebe27;
+    margin-top: 20px;
+    cursor: pointer;
+    &:hover{
+      background-color: #bebebe51;
+    }
+    h4{
+      font-weight: 400;
+      color: $whiteColor;
+    }
+    p{
+      color: #c8c6c6;
+      font-weight: 300;
+    }
+  }
+}

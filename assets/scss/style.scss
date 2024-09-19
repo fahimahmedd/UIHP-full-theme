@@ -1,0 +1,97 @@
+/*-----------------------------------
+Template Name: NDE Project
+Template URL : 
+Description  :
+Author       : 
+Author URL   :
+Version      : 0.0.1
+------------------------------------*/
+
+/*--- SCSS Compile File Path
+     "savePath": "/assets/css" 
+                              ---*/
+
+
+@import "../scss/commonScss/common"; 
+@import "../scss/mixinScss/mixin";
+@import "../scss/variableScss/variable"; 
+@import "../scss/global"; 
+
+
+/*   Common Sections   
+------------------------------------*/
+@import "../scss/commonSectionScss/header"; 
+@import "../scss/commonSectionScss/contact"; 
+@import "../scss/commonSectionScss/footer"; 
+@import "../scss/commonSectionScss/subHero"; 
+@import "../scss/commonSectionScss/teamMamber"; 
+@import "../scss/commonSectionScss/textTypography"; 
+@import "../scss/commonSectionScss/commonFeatureSection"; 
+@import "../scss/commonSectionScss/faq"; 
+@import "../scss/commonSectionScss/media"; 
+
+
+/*   Home Page
+--------------------------*/
+@import "../scss/homePageScss/hero"; 
+@import "../scss/homePageScss/about"; 
+@import "../scss/homePageScss/featureCard"; 
+@import "../scss/homePageScss/counter"; 
+@import "../scss/homePageScss/perticipate"; 
+@import "../scss/homePageScss/partner"; 
+
+/*   Program Page
+--------------------------*/
+@import "../scss/programPageScss/program"; 
+@import "../scss/programPageScss/message"; 
+
+/*  All Event Page
+--------------------------*/
+@import "../scss/allEventPagesScss/eventCard"; 
+@import "../scss/allEventPagesScss/eventAbout"; 
+@import "../scss/allEventPagesScss/eventCalender"; 
+
+/*  Mission Vission Page
+--------------------------*/
+@import "../scss/missionVissionPagesScss/mission"; 
+@import "../scss/missionVissionPagesScss/newsUpdate"; 
+
+
+/*  General Description Page
+-------------------------------*/
+@import "../scss/generalDescription/generalCard"; 
+
+/*  FlatCard Page
+--------------------------*/
+@import "../scss/mentorPageScss/flatCard";  
+@import "../scss/mentorPageScss/coach"; 
+@import "../scss/mentorPageScss/mentorEvent"; 
+@import "../scss/mentorPageScss/mentorFeature"; 
+
+
+/*  Become Meamber Page
+-------------------------------*/
+@import "../scss/becomeMamberPageScss/paymentCard";
+
+
+/*  Upcoming Event Page
+-------------------------------*/
+@import "../scss/upComingEventPageScss/upcomingEvent";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

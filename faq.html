@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UIHP - University Innovation HUB Program </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <!-- Boostarp - 5 CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- AOS animation CDN link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Style Shit (Main) Compile from SCSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Extra Custom CSS (It's out of scss compiler) -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Responsive Style Shit -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body id="top">
+
+    <!----- Header Section Start ----->
+    <header id="header" class="header" data-header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-2">
+                        <a class="header-hamburger" data-bs-toggle="offcanvas" href="#headerOffcanvas" role="button"
+                            aria-controls="headerOffcanvas">
+                            <ion-icon name="grid"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-8">
+                        <a href="home.html">
+                            <div class="header-logo">
+                                <img src="./assets/images/logo-W.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 d-lg-block d-md-block d-sm-block d-none">
+                        <div class="social-item">
+                            <span> Follow Us : </span>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <ion-icon name="logo-twitter"></ion-icon>
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Side OFFCANVAS -->
+    <div class="offcanvas offcanvas-start headerOffcanvas" tabindex="-1" id="headerOffcanvas"
+        aria-labelledby="headerOffcanvasLabel">
+        <div class="offcanvas-header">
+            <div class="offcanvas-title" id="headerOffcanvasLabel">
+                <img src="./assets/images/H-img-1.png" alt="">
+                <img src="./assets/images/H-img-2.png" alt="">
+                <img src="./assets/images/H-img-3.png" alt="">
+                <img src="./assets/images/H-img-4.png" alt="">
+                <img src="./assets/images/H-img-5.png" alt="">
+            </div>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion headerAccordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Program
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <ul>
+                                <li> <a href="program.html"> About The Program </a> </li>
+                                <li> <a href="missionVission.html"> Mission & Vision </a> </li>
+                                <li> <a href="allEvent.html"> All Event </a> </li>
+                                <li> <a href="becomeMember.html"> Become Member </a> </li>
+                                <li> <a href="courseCertificate.html"> Course Certificate </a> </li>
+                                <li> <a href="faq.html"> FAQ </a> </li>
+                                <li> <a href="futureEvent.html"> Future Event </a> </li>
+                                <li> <a href="GeneralDescription.html"> General Description </a> </li>
+                                <li> <a href="industry.html"> Industry </a> </li>
+                                <li> <a href="Innovation.html"> Innovation </a> </li>
+                                <li> <a href="InnovationCohort.html"> Innovation Cohort </a> </li>
+                                <li> <a href="intellectualProperty.html"> Intellectual Property </a> </li>
+                                <li> <a href="jobOpportunities.html"> Job Opportunities </a> </li>
+                                <li> <a href="mentors.html"> Mentors </a> </li>
+                                <li> <a href="mentorShip.html"> MentorShip </a> </li>
+                                <li> <a href="eventCalender.html"> Event Calender </a> </li>
+                                <li><a href="nationalConference.html">National Conference</a></li>
+                                <li><a href="programLeadership.html">Program Leadership</a></li>
+                                <li><a href="uihMedia.html">UIH Media</a></li>
+                                <li><a href="eventCalender.html">Event Calender</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> About Us
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="GeneralDescription.html"> General Description </a></li>
+                                <li><a href="courseCertificate.html"> Certificate Course on Innovation and
+                                        Entrepreneurship</a></li>
+                                <li><a href="Innovation.html"> Innovation and Entrepreneurship Lecture Series </a></li>
+                                <li><a href="InnovationCohort.html"> Innovation Cohort </a></li>
+                                <li><a href="intellectualProperty.html"> Intellectual Property Rights  </a></li>
+                                <li><a href="mentorShip.html"> Mentorship for University-Based  Incubation </a></li>
+                                <li><a href="industry.html"> Industry-Academia Collaboration </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Apply Now
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="courseCertificate.html"> Certificate Course on Innovation and
+                                        Entrepreneurship </a></li>
+                                <li><a href="Innovation.html"> Innovation and Entrepreneurship Lecture Series </a></li>
+                                <li><a href="InnovationCohort.html"> Innovation COhort </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Join Us
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="becomeMember.html"> Become a Partner </a></li>
+                                <li><a href="BecomeMentor.html"> Become a Mentor </a></li>
+                                <li><a href="program.html"> Young Professional Program </a></li>
+                                <li><a href="jobOpportunities.html"> Job Opportunities </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Our
+                                Experts
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="mentors.html"> Mentors  </a></li>
+                                <li><a href="#"> Instructors </a></li>
+                                <li><a href="#"> Specialists </a></li>
+                                <li><a href="#"> Guest Speakers </a></li>
+                                <li><a href="#"> Job Opportunities </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Success
+                                Metrics
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSix">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#"> Dashboard </a></li>
+                                <li><a href="#"> Impact Stories </a></li>
+                                <li><a href="#"> Profile of Innovation Teams </a></li>
+                                <li><a href="#"> Our Graduates </a></li>
+                                <li><a href="#"> Testimony </a></li>
+                                <li><a href="uihMedia.html"> UIH in Media </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Events
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSeven">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#"> Event Clanedar </a></li>
+                                <li><a href="#"> National Ip Conference 2024 </a></li>
+                                <li><a href="#"> Innovation Challnage Competition 2024 </a></li>
+                                <li><a href="#"> Event Gallery </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Resources
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingEight">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#"> Q&A </a></li>
+                                <li><a href="#"> Blog </a></li>
+                                <li><a href="#"> Video Tutorials </a></li>
+                                <li><a href="#"> Downloadable Documents </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----- Header Section End ----->
+
+    <!-- Sub Hero Section Start -->
+    <section>
+        <div class="sub-hero" style="background-image: url(./assets/images/faq-bg.png);">
+            <div class="container">
+                <div class="sub-hero-contant text-center" data-aos="fade-up" data-aos-easing="ease"
+                    data-aos-delay="400">
+                    <div class="page-route">
+                        Frequently Asked Question
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Sub Section End  -->
+
+    <!---------- FAQ Section Start ---------->
+    <div class="faq">
+        <div class="container">
+
+            <div class="faq-wrapper">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 d-lg-block d-md-block d-none">
+                        <div class="faq-text">
+                            FAQ
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-10">
+                        <div class="faq-wrap">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq-1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#faq-1-collaps" aria-expanded="true"
+                                            aria-controls="faq-1-collaps">
+                                            General Information
+                                            <ion-icon name="chevron-down-outline"></ion-icon>
+                                        </button>
+                                    </h2>
+                                    <div id="faq-1-collaps" class="accordion-collapse collapse show"
+                                        aria-labelledby="faq-1" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>What is the University Innovation Hub Program?</h5>
+                                            <p>The University Innovation Hub Program is an incubation initiative by
+                                                Bangladesh Hi-Tech Park Authority (BHTPA) under the ICT Division,
+                                                financed by the World Bank. It nurtures innovative ideas and startups
+                                                within universities, including students, faculty, and alumni.</p>
+
+                                            <p>It aims to nurture technology-driven innovations and facilitate the
+                                                commercialization of these innovations by forming startup ventures or
+                                                registering intellectual property rights. </p>
+                                            <h5> Who can participate in the University Innovation Hub Program? </h5>
+                                            <p>The program is open to university students, graduates, researchers, and
+                                                alumni from specific universities who are keen to bring in
+                                                technology-driven innovations. Teams must be from the same university.
+                                                No mix and matching.</p>
+                                            <h5> What are the benefits of participating in the program?</h5>
+                                            <p>Participants will receive foundational training in innovation and
+                                                entrepreneurship, mentorship from industry experts, access to resources
+                                                like co-working spaces and technical tools, and opportunities for
+                                                networking, prototype development, and possibly seed funding for their
+                                                ventures.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq-2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq-2-collaps"
+                                            aria-expanded="false" aria-controls="faq-2-collaps">
+                                            Application and Selection
+                                            <ion-icon name="chevron-down-outline"></ion-icon>
+                                        </button>
+                                    </h2>
+                                    <div id="faq-2-collaps" class="accordion-collapse collapse" aria-labelledby="faq-2"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>How can I apply for the program?</h5>
+                                            <p>Please navigate to the registration page and select your university.
+                                                Follow the instructions on the page.</p>
+                                            <h5>What criteria are used to select participants for the program?</h5>
+                                            <p>Participants are selected based on their innovative ideas, potential
+                                                impact, and alignment with the program's objectives. The specific
+                                                selection criteria is given below.</p>
+                                            <div class="custom-table">
+                                                <table>
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="w-10">Innovation <br> Team</th>
+                                                            <th class="w-20 "> Problem Statement and Proposed Solution
+                                                                <br> <span>(20 Marks )</span></th>
+                                                            <th class="w-15"> Technology Strategy <span>(30
+                                                                    Marks)</span> </th>
+                                                            <th class="w-15"> Business Strategy <br> <span>(20
+                                                                    Marks)</span> </th>
+                                                            <th class="w-15"> Value Proposition <br> <span>(20
+                                                                    Marks)</span> </th>
+                                                            <th class="w-15"> Team Composition <br> <span>(10
+                                                                    Marks)</span> </th>
+                                                            <th class="w-10"> Total Score <br> Out of 100 </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="w-10">
+                                                                <strong> Factors to Consider </strong>
+                                                            </td>
+                                                            <td class="w-20"> Identify current market problems that need
+                                                                to be addressed. Highlight how your idea is going to
+                                                                solve that problem. Mention the novelty of your idea, if
+                                                                any. </td>
+                                                            <td class="w-15">
+                                                                Provide a brief overview of your technology
+                                                                architecture. Highlight how technology is involved in
+                                                                solving your identified problem. Summarise how your
+                                                                technology architecture will keep pace with the dynamics
+                                                                induced by 4IR. </td>
+                                                            <td class="w-15">
+                                                                Summarise your business plan along with your revenue
+                                                                model.Analyse current market competition, if any, and
+                                                                your startup's competitive advantages.
+                                                            </td>
+                                                            <td class="w-15">
+                                                                Establish measurable key performance indicators that
+                                                                align with your business objectives.Emphasise the
+                                                                importance of innovation in your business strategy, if
+                                                                any.
+                                                            </td>
+                                                            <td class="w-15"> Gender balance</td>
+                                                            <td class="w-10"> </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <h5>Is there a deadline for applications?</h5>
+                                            <p>Yes, there is a deadline. Each university has their own deadline and
+                                                schedule. Please check the relevant universities’ registration page for
+                                                more details. Late submissions may not be considered. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq-3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq-3-collaps"
+                                            aria-expanded="false" aria-controls="faq-3-collaps">
+                                            Program Structure and Curriculum
+                                            <ion-icon name="chevron-down-outline"></ion-icon>
+                                        </button>
+                                    </h2>
+                                    <div id="faq-3-collaps" class="accordion-collapse collapse" aria-labelledby="faq-3"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>What does the curriculum include? </h5>
+                                            <p>The curriculum consists of three major components: Innovation Cohort,
+                                                Entrepreneurship Lecture Series and a Certificate Course on Innovation
+                                                and Entrepreneurship, totalling 100 hours per cohort. It covers a range
+                                                of topics from ideation, prototype development, IP protection, financial
+                                                modelling, to startup ecosystem growth strategies. </p>
+
+                                            <div class="custom-table">
+                                                <table>
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="w-40">Item</th>
+                                                            <th class="w-20"> Hours Per cohort</th>
+                                                            <th class="w-40"> Remarks </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="w-40">
+                                                                <strong> 1. Innovation and Entrepreneurship Lecture
+                                                                    Series </strong>
+                                                                Total 10 lectures. Any students, faculties, alumni can
+                                                                register and participate in the lecture Series in person
+                                                                or virtually.
+                                                            </td>
+                                                            <td class="w-20">
+                                                                1.5-2 hours per lecture, total 15-16 hours
+                                                            </td>
+                                                            <td class="w-40">
+                                                                Open for All. In-person and virtual. Number of seats:
+                                                                subject to seat capacity of university. One lecture per
+                                                                university, total 10 lectures.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="w-40">
+                                                                <strong> 2. Certificate Course on Innovation and
+                                                                    Entrepreneurship </strong>
+                                                                The student of any discipline will be able to take the
+                                                                course, This course is mandatory for the members of the
+                                                                innovation teams.
+                                                            </td>
+                                                            <td class="w-20">
+                                                                24 hours per batch
+                                                            </td>
+                                                            <td class="w-40">
+                                                                Only for selected students. Number of Seats: 50-150,
+                                                                subject to available seat capacity. Number of seats:
+                                                                subject to seat capacity of university. Maximum number
+                                                                of batches: 6 per university. Competitive. </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="w-40">
+                                                                <strong> 3. A. Innovation Cohort: Component 1 [
+                                                                    Guided]</strong>
+                                                                The students will be able to go through a series of
+                                                                workshops ( in class and on the field) from ideation,
+                                                                customer discovery, prototyping to business modeling and
+                                                                commercialization. It's a learning by doing modalities
+                                                                of solution design
+                                                            </td>
+                                                            <td class="w-20">
+                                                                80 hours per cohort
+                                                            </td>
+                                                            <td class="w-40">
+                                                                Only for selected innovation teams. Maximum number of
+                                                                team 16 per cohort, total team members 50. maximum
+                                                                number of cohorts per university: 6. Competitive.
+                                                                Curriculum for the certificate course is inbuilt in the
+                                                                flow of sessions </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="w-40">
+                                                                <strong> 3.B.1 Self-paced Product Development and
+                                                                    Learning</strong>
+                                                                Each innovation team will work beyond classroom [ Go out
+                                                                of the building time] for product/service development
+                                                            </td>
+                                                            <td class="w-20">
+                                                                Approximately 64 hours
+                                                            </td>
+                                                            <td class="w-40">
+                                                                This time is an approximation. Innovation teams will
+                                                                develop their product services beyond the guided
+                                                                sessions by mentors and coaches.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="w-40">
+                                                                <strong>3.B.2 Self-paced Learning [ Video, Presentation]
+                                                                </strong>
+                                                                Each team will go through materials on their own beyond
+                                                                classroom time
+                                                            </td>
+                                                            <td class="w-20">
+                                                                16 hours
+                                                            </td>
+                                                            <td class="w-40">
+                                                                Supplementary materials for self learning will be
+                                                                available for self-learning.
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq-4">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq-4-collaps"
+                                            aria-expanded="false" aria-controls="faq-4-collaps">
+                                            Innovation Cohort
+                                            <ion-icon name="chevron-down-outline"></ion-icon>
+                                        </button>
+                                    </h2>
+                                    <div id="faq-4-collaps" class="accordion-collapse collapse" aria-labelledby="faq-4"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>What is the Innovation Cohort?</h5>
+                                            <p>The Innovation Cohort is a central element of the program where selected
+                                                teams work intensively on developing prototypes, MVPs, and
+                                                commercialization strategies. This component involves guided mentorship,
+                                                workshops, and self-paced product development activities.</p>
+                                            <h5>How is the Innovation Cohort structured?</h5>
+                                            <p>The Cohort follows a three-step process: Explore, Test, and Propel. It
+                                                starts with ideation and lean canvas development, moves to prototyping
+                                                and business model canvas creation, and culminates in MVP development
+                                                and venture launch preparation.</p>
+                                            <h5>What kind of support do Innovation Cohort participants receive?</h5>
+                                            <p>Participants receive comprehensive support including mentorship from
+                                                business and technical experts, access to facilities, and guidance
+                                                through product development life cycles, customer acquisition
+                                                strategies, and investment readiness. </p>
+                                            <h5>What is the time commitment of this series?</h5>
+                                            <p>This series requires students’ active participation for 84 hours during
+                                                the 4-5 months of a cohort. These will be a series of workshops (in
+                                                class and on the field) using a learning by doing modality of solution
+                                                design. This is approximately 4.5 hours per week. </p>
+                                            <p>Furthermore, there is an additional requirement of 64 hours self-guided
+                                                and self-paced learning. This is another 3.7 hours per week.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq-5">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq-5-collaps"
+                                            aria-expanded="false" aria-controls="faq-5-collaps">
+                                            Entrepreneurship Lecture Series
+                                            <ion-icon name="chevron-down-outline"></ion-icon>
+                                        </button>
+                                    </h2>
+                                    <div id="faq-5-collaps" class="accordion-collapse collapse" aria-labelledby="faq-5"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>What is the Entrepreneurship Lecture Series?</h5>
+                                            <p>The Entrepreneurship Lecture Series is a set of 10 lectures organised
+                                                across participating universities, focusing on various aspects of
+                                                innovation and entrepreneurship. These lectures are delivered by
+                                                renowned national and international innovators and founders. </p>
+                                            <h5>Who can attend the Entrepreneurship Lecture Series? </h5>
+                                            <p>These lectures are open to all students, faculty, and alumni. While they
+                                                might require a ticket for general attendees, they are free for members
+                                                of the Innovation Cohort and Certificate Course students.</p>
+                                            <h5>What topics are covered in the Lecture Series?</h5>
+                                            <p>The Lecture Series covers diverse topics such as Startup Ecosystem Growth
+                                                Strategy, Systems Thinking, IP Protection, Unit Economics, Emotional
+                                                Intelligence in Entrepreneurship, Financial Modeling, Fundraising
+                                                Strategies, and more. </p>
+                                            <h5>What is the time commitment of this series? </h5>
+                                            <p>Each lecture will be 1.5 to 2 hours long. Applicants need to commit 15 –
+                                                16 hours over 4 or 5 months. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq-6">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq-6-collaps"
+                                            aria-expanded="false" aria-controls="faq-6-collaps">
+                                            Certificate Course on Innovation and Entrepreneurship
+                                            <ion-icon name="chevron-down-outline"></ion-icon>
+                                        </button>
+                                    </h2>
+                                    <div id="faq-6-collaps" class="accordion-collapse collapse" aria-labelledby="faq-6"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>What is the Certificate Course on Innovation and Entrepreneurship?</h5>
+                                            <p>This is a 24-hour certificate course designed to build awareness and
+                                                skills in innovation and entrepreneurship among students from all
+                                                disciplines. It aims to prepare students for entrepreneurial roles and
+                                                career development.</p>
+                                            <h5>What are the main topics covered in the Certificate Course?</h5>
+                                            <p>The course covers essential entrepreneurial skills such as opportunity
+                                                identification, business model development, financial management,
+                                                marketing strategies, building interdisciplinary teams, and legal
+                                                considerations for entrepreneurs.</p>
+                                            <h5>Who can enroll in the Certificate Course?</h5>
+                                            <p>The course is open to all university students, including those not part
+                                                of the Innovation Cohort, subject to seat availability. All Innovation
+                                                Cohort students are required to go through this course.</p>
+                                            <h5>Is there a possibility of integrating the Certificate Course into the
+                                                university curriculum?</h5>
+                                            <p>Based on the success and feedback from the course, there is potential for
+                                                mainstreaming it into the university's program with appropriate
+                                                accreditation by the University Grants Commission.</p>
+                                            <h5>How long is the program?</h5>
+                                            <p>The program duration is 24 hours spread over 4 – 5 months. This is
+                                                approximately 1.4 hours per week.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq-7">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq-7-collaps"
+                                            aria-expanded="false" aria-controls="faq-7-collaps">
+                                            Mentorship and Support
+                                            <ion-icon name="chevron-down-outline"></ion-icon>
+                                        </button>
+                                    </h2>
+                                    <div id="faq-7-collaps" class="accordion-collapse collapse" aria-labelledby="faq-7 "
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>What kind of mentorship and support is provided?</h5>
+                                            <p>Participants will receive mentorship from experienced professionals and
+                                                industry experts. The program offers guided engagement with mentors,
+                                                including a Technical Mentor for product development and a Business
+                                                Mentor for commercialization.</p>
+                                            <h5>Who are the mentors, and how are they selected? </h5>
+                                            <p>Mentors are seasoned professionals with a track record in innovation,
+                                                entrepreneurship, or specific industry expertise. They are selected
+                                                based on their experience, achievements, and commitment to fostering new
+                                                talent. </p>
+                                            <h5>Can participants access resources outside the university?</h5>
+                                            <p>Yes, participants will have opportunities to engage with the broader
+                                                innovation ecosystem, including industry linkages, professional
+                                                networking, and potential investment raising opportunities. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq-8">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq-8-collaps"
+                                            aria-expanded="false" aria-controls="faq-8-collaps">
+                                            Funding and Resources
+                                            <ion-icon name="chevron-down-outline"></ion-icon>
+                                        </button>
+                                    </h2>
+                                    <div id="faq-8-collaps" class="accordion-collapse collapse" aria-labelledby="faq-8 "
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>Is there any funding available for participating projects?</h5>
+                                            <p>The program provides pre-seed and seed funding to top teams for building
+                                                and testing prototypes and developing MVPs. A jury board of
+                                                distinguished members will determine the top teams according to a
+                                                scoring matrix.</p>
+                                            <h5>What resources will be available to participants?</h5>
+                                            <p>Participants will have access to co-working spaces, learning facilities,
+                                                technical tools and equipment, and digital infrastructure essential for
+                                                running the innovation hubs.</p>
+                                            <h5>Are there any costs associated with participating in the program? </h5>
+                                            <p>The program is completely free to attend. There are no fees. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq-9">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq-9-collaps"
+                                            aria-expanded="false" aria-controls="faq-9-collaps">
+                                            Outcomes and Opportunities
+                                            <ion-icon name="chevron-down-outline"></ion-icon>
+                                        </button>
+                                    </h2>
+                                    <div id="faq-9-collaps" class="accordion-collapse collapse" aria-labelledby="faq-9"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h5>What are the expected outcomes for participants? </h5>
+                                            <p>Participants are expected to develop working prototypes, form startup
+                                                ventures, register intellectual property rights, and acquire the skills
+                                                and knowledge to navigate the entrepreneurial landscape successfully.
+                                            </p>
+                                            <h5>Are there opportunities for networking and showcasing projects?</h5>
+                                            <p>Yes, the program includes events like the national innovation challenge,
+                                                innovation showcasing events, and boot camps to facilitate networking,
+                                                engagement, and showcasing of innovations to potential investors and
+                                                industry stakeholders. </p>
+                                            <h5>How does the program support post-graduation ventures?</h5>
+                                            <p>The program offers post-graduation support including professional
+                                                networking, product scaling, fund-raising, and partnership development
+                                                opportunities to ensure the sustainability and growth of the ventures.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------- FAQ Section End ---------->
+
+
+
+    <!-- Footer Section Start -->
+    <footer id="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5">
+                        <div class="footer-profile">
+                            <div class="logo">
+                                <img src="./assets/images/logo-W.png" alt="">
+                            </div>
+                            <h4> This Is Footer Profile </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <div class="footer-main-part">
+                            <div class="footer-top-part">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <div class="social-item">
+                                            <h5> Follow Us </h5>
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                            <ion-icon name="logo-youtube"></ion-icon>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <h5> Subscribe </h5>
+                                        <p>Subscribe to stay tuned for new web design and latest updates. Let's do it!
+                                        </p>
+
+                                        <div class="subscribe-input">
+                                            <input type="text" placeholder="Enter your E-mail" class="from_control" />
+                                            <div class="subscribe_btn">
+                                                Subscribe
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-nav-part">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Product </h4>
+                                        <ul>
+                                            <li><a href="#"> Landing Page </a></li>
+                                            <li><a href="#"> Popup Builder</a></li>
+                                            <li><a href="#"> Web-design</a></li>
+                                            <li><a href="#"> Content</a></li>
+                                            <li><a href="#">Integrations</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Use Cases </h4>
+                                        <ul>
+                                            <li><a href="#"> Web-designers </a></li>
+                                            <li><a href="#"> Marketers </a></li>
+                                            <li><a href="#"> Small Business </a></li>
+                                            <li><a href="#"> Website Builder</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Resources </h4>
+                                        <ul>
+                                            <li><a href="#"> Academy </a></li>
+                                            <li><a href="#"> Blog</a></li>
+                                            <li><a href="#"> Themes</a></li>
+                                            <li><a href="#"> Hosting</a></li>
+                                            <li><a href="#">Developers</a></li>
+                                            <li><a href="#">Support</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Company </h4>
+                                        <ul>
+                                            <li><a href="#"> About Us </a></li>
+                                            <li><a href="#"> Careers</a></li>
+                                            <li><a href="#"> FAQs</a></li>
+                                            <li><a href="#"> Teams</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copy Right -->
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <span> © Copyright NDE. All Rights Reserved & Designed by Motion Mishu </span>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+
+    <!-- Go to Top -->
+    <a href="#top" class="go-top" data-go-top title="Go to Top">
+        <ion-icon name="arrow-up"></ion-icon>
+    </a>
+
+    <!-- Javascript Script Link
+    --------------------------------------------------->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Boostarp-5 Js CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- AOS Animation CDN Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- IonIcon CDN Link -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/custom.js"></script>
+</body>

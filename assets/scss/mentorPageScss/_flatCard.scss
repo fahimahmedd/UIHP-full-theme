@@ -1,0 +1,36 @@
+.flat-card{
+    background-color: #371f190e;
+}
+.flat-card-wrapper{
+    .flat-card-wrap{
+        height: 380px;
+        width: 100%;
+        @include d-center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #fff;
+        position: relative;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            position: relative;
+        }
+        .img-overly{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0,0,0,0.3);
+        }
+        .text-content{
+            padding: 20px;
+        }
+        h4{
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+        }
+    }
+}

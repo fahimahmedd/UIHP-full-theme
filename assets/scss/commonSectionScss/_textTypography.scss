@@ -1,0 +1,36 @@
+.text-typography-wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    h2{
+        font-size: 28px;
+        line-height: 38px;
+        // font-family: hal;
+        font-family: $secondary-font;
+    }
+    p{
+        line-height: 24px;
+    }
+
+    ul{
+        margin-left: 20px;
+        li{
+            list-style:disc; 
+            font-size: 14px;
+            color: $textColor; 
+            margin-bottom: 10px;
+
+            a{ 
+                color: #1B76BA;
+                &:hover{
+                    color: $blackColor;
+                }
+            }
+        }
+    }
+
+    img{
+        max-height: 400px;
+        width: 100%;
+        object-fit: contain;
+    }
+}

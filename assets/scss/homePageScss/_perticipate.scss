@@ -1,0 +1,216 @@
+.perticipate{
+    background-color: #F5F5EE;
+    .perticipate-wrapper{
+        h2{
+            text-align: center;
+            font-weight: 600;
+            color: $blackColor;
+            // text-transform: uppercase;
+            letter-spacing: 1.6px;
+            font-family: $secondary-font;
+        }
+        .perticipate-card{
+            display: flex;
+            align-items: center;
+            height: 160px;
+            // border: 1px dashed $primary-border;
+            margin-top: 25px;
+            background-color: $primaryColor;
+            border-radius: 16px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            overflow: hidden;
+            .perticipate-img{
+                height: 100%;
+                position: relative;
+                z-index: 1;
+                &::before{
+                    position: absolute;
+                    content: '';
+                    height: 25px;
+                    width: 25px;
+                    background-color: $primaryColor;
+                    border-radius: 3px;
+                    top: 50%;
+                    right: -14px;
+                    transform: translateY(-50%) rotate(45deg);
+                    z-index: 2;
+                }
+                .overly-content{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(0,0,0,0.3);
+                    display: flex;
+                    align-items: center;
+                    padding-left: 20px;
+                    .logo-img{
+                        img{
+                            max-height: 80px;
+                            width: auto;
+                            object-fit: contain;
+                        }
+                    }
+                }
+                // &::after{
+                //     position: absolute;
+                //     content: '';
+                //     top: 0;
+                //     left: 0;
+                //     height: 100%;
+                //     width: 100%;
+                //     background-color: rgba(0,0,0,0.2);
+                // }
+                img{
+                    width: 220px;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .card-content{
+                padding: 12px 12px 12px 35px;
+                h4{
+                    color: $whiteColor;
+                    font-weight: 600;
+                    letter-spacing: 1.1px;
+                }
+                p{
+                    color: $offwhiteColor;
+                    font-size: 15px;
+                    line-height: 24px;
+                }
+
+            }
+        }
+        .bg-red{
+            background-color: #AD2028;
+            .perticipate-img{
+                &::before{
+                    background-color: #AD2028;
+                }
+            }
+        }
+        .bg-green{
+            background-color: #138C57;
+            .perticipate-img{
+                &::before{
+                    background-color: #138C57;
+                }
+            }
+        }
+        .bg-light-blue{
+            background-color: #41B9E5;
+            .perticipate-img{
+                &::before{
+                    background-color: #41B9E5;
+                }
+            }
+        }
+        .bg-purple{
+            background-color: #170C2E;
+            .perticipate-img{
+                &::before{
+                    background-color: #170C2E;
+                }
+            }
+        }
+        .bg-deep-blue{
+            background-color: #00A0DF;
+            .perticipate-img{
+                &::before{
+                    background-color: #00A0DF;
+                }
+            }
+        }
+        .bg-g-blue{
+            background-color: #0804ea;
+            .perticipate-img{
+                &::before{
+                    background-color: #0804ea;
+                }
+            }
+        }
+        .bg-magenda{
+            background-color: #C24C2E;
+            .perticipate-img{
+                &::before{
+                    background-color: #C24C2E;
+                }
+            }
+        }
+        .bg-light-sky{
+            background-color: #174FC9;
+            .perticipate-img{
+                &::before{
+                    background-color: #174FC9;
+                }
+            }
+        }
+    }
+}
+
+.implementing{
+    background-color: #f5f5ee;
+    margin-bottom: 100px;
+
+    h2{
+        text-align: center;
+        font-weight: 600;
+        color: $blackColor;
+        letter-spacing: 1.6px;
+        font-family: $secondary-font;
+    }
+    .barnd-swipper{
+        max-width: 1000px;
+        margin: 50px auto 0;
+       position: relative;
+    }
+    .brand-card{
+        height: 130px;
+        width: 100%;
+        @include d-center;
+        padding: 20px;
+        border: 1px dashed $primary-border;
+        background-color: $whiteColor;
+        border-radius: 10px;
+        &:hover{
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+     }
+    .swiper-button-prev {
+        height: 40px;
+        width: 40px;
+        background-color: $whiteColor;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border: 1px dashed $primary-border;
+        border-radius: 50%;
+        z-index: 10;
+        top: 50%;
+        transform: translateY(-50%);
+        &::after {
+          font-size: 18px;
+          color: $blackColor;
+        }
+      }
+      .swiper-button-next {
+        height: 40px;
+        width: 40px;
+        background-color: $whiteColor;
+        border: 1px dashed $primary-border;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 50%;
+        z-index: 10;
+        top: 50%;
+        transform: translateY(-50%);
+        &::after {
+          font-size: 18px;
+          color: $blackColor;
+        }
+      }
+}

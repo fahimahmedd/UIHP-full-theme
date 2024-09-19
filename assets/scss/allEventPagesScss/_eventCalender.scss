@@ -1,0 +1,167 @@
+.event-calender {
+  .event-calender-wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+}
+
+.event-calender-navigator {
+  width: 100%;
+  padding: 12px;
+  background-color: $whiteColor;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  .calender-navigator-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    i {
+      height: 30px;
+      width: 30px;
+      border: 1px solid $primaryColor;
+      border-radius: 6px;
+      @include d-center;
+      background-color: $primaryColor;
+      &:hover {
+        background-color: $whiteColor;
+        border: 1px solid $primaryColor;
+      }
+      &:hover ion-icon {
+        color: $primaryColor;
+      }
+      cursor: pointer;
+      ion-icon {
+        font-size: 18px;
+        color: $whiteColor;
+      }
+    }
+  }
+  .calender-navigator-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    span {
+      margin-right: 20px;
+    }
+    button {
+      height: 34px;
+      padding: 0 10px;
+      background-color: $primaryColor;
+      color: $whiteColor;
+      border-radius: 7px;
+      font-size: 13px;
+      font-family: $secondary-font;
+      margin-left: 15px;
+      &:hover {
+        background-color: $secondaryColor;
+      }
+    }
+    .perticipate-btn {
+      height: 34px;
+      padding: 0 10px;
+      background-color: $whiteColor;
+      border: 1px solid #c3c3c392;
+      color: $primaryColor;
+      border-radius: 7px;
+      font-size: 13px;
+      &:hover{
+        color: $whiteColor;
+      }
+    }
+  }
+}
+
+
+.event-calender-body{
+    margin-top: 20px;
+    .calender-body-top{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        .date-box{
+            height: 60px;
+            width: 80px;
+            background-color: $whiteColor;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 8px;
+            @include d-center;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}
+.event-calender-item-wrapper{
+    margin-bottom: 20px;
+    .date-box{
+        height: 85px;
+        width: 80px;
+        background-color: $whiteColor;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 10px;
+        background-color: #6687ff5b;
+        @include d-center;
+        flex-direction: column;
+        // text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 400;
+        padding-top: 7px;
+        span{
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 3px;
+        }
+    }
+}
+
+.event-calender-item{
+    height: 90px;
+    width: 100%;
+    background-color: $whiteColor;
+    border-radius: 12px;
+    border: 1px dashed $primary-border;
+    box-shadow: rgba(160, 166, 172, 0.2) 0px 8px 24px;
+    padding: 10px 30px 10px 20px;
+    margin-bottom: 12px;
+    position: relative;
+    &:hover{
+        box-shadow: rgba(77, 77, 77, 0.24) 0px 3px 8px;
+    }
+    .event-calender-item-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // flex-wrap: wrap;
+        h4{
+            font-size: 15px;
+            font-weight: 500;
+            color: $blackColor;
+            @include text-ellips;
+            line-height: 20px;
+            font-family: $secondary-font;
+        }
+        .perticipate-member{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            position: absolute;
+            top: 6px;
+            right: 10px;
+            ion-icon{
+                color: #86a8c0;
+                margin-right: 2px;
+            }
+        }
+    }
+    p{
+        font-size: 13px;
+        color: $textColor;
+        @include text-ellips-2;
+        line-height: 20px;
+    }
+}

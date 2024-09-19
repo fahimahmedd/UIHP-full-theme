@@ -1,0 +1,34 @@
+.coach-wrapper{
+    margin-top: 30px;
+}
+.coach-card{
+   background-color: $whiteColor;
+   padding: 20px 20px 10px 40px;
+   border: 1px dashed $secondary-border;
+   border-radius: 16px;
+   margin-bottom: 20px;
+   position: relative;
+   overflow: hidden;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   &:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: $transition;
+    border: 1px solid transparent;
+   }
+   &::after{
+    @include after-content;
+    width: 8px;
+    background-color: $primaryColor;
+   }
+   h4{
+    font-weight: 700;
+    font-family: $secondary-font;
+   }
+}
+
+.coach-img{
+    img{
+        max-height: 500px;
+        object-fit: contain;
+    }
+}

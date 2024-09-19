@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UIHP - University Innovation HUB Program </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <!-- Boostarp - 5 CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- AOS animation CDN link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Swipper Js CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Style Shit (Main) Compile from SCSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Extra Custom CSS (It's out of scss compiler) -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Responsive Style Shit -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body id="top" class="dark-body">
+
+    <!----- Header Section Start ----->
+    <header id="header" class="header" data-header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-2">
+                        <a class="header-hamburger" data-bs-toggle="offcanvas" href="#headerOffcanvas" role="button"
+                            aria-controls="headerOffcanvas">
+                            <ion-icon name="grid"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-8">
+                        <a href="home.html">
+                            <div class="header-logo">
+                                <img src="./assets/images/logo-W.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 d-lg-block d-md-block d-sm-block d-none">
+                        <div class="social-item">
+                            <span> Follow Us : </span>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <ion-icon name="logo-twitter"></ion-icon>
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Side OFFCANVAS -->
+    <div class="offcanvas offcanvas-start headerOffcanvas" tabindex="-1" id="headerOffcanvas"
+        aria-labelledby="headerOffcanvasLabel">
+        <div class="offcanvas-header">
+            <div class="offcanvas-title" id="headerOffcanvasLabel">
+                <img src="./assets/images/H-img-1.png" alt="">
+                <img src="./assets/images/H-img-2.png" alt="">
+                <img src="./assets/images/H-img-3.png" alt="">
+                <img src="./assets/images/H-img-4.png" alt="">
+                <img src="./assets/images/H-img-5.png" alt="">
+            </div>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion headerAccordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Program
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <ul>
+                                <li> <a href="program.html"> About The Program </a> </li>
+                                <li> <a href="missionVission.html"> Mission & Vision </a> </li>
+                                <li> <a href="allEvent.html"> All Event </a> </li>
+                                <li> <a href="becomeMember.html"> Become Member </a> </li>
+                                <li> <a href="courseCertificate.html"> Course Certificate </a> </li>
+                                <li> <a href="faq.html"> FAQ </a> </li>
+                                <li> <a href="futureEvent.html"> Future Event </a> </li>
+                                <li> <a href="GeneralDescription.html"> General Description </a> </li>
+                                <li> <a href="industry.html"> Industry </a> </li>
+                                <li> <a href="Innovation.html"> Innovation </a> </li>
+                                <li> <a href="InnovationCohort.html"> Innovation Cohort </a> </li>
+                                <li> <a href="intellectualProperty.html"> Intellectual Property </a> </li>
+                                <li> <a href="jobOpportunities.html"> Job Opportunities </a> </li>
+                                <li> <a href="mentors.html"> Mentors </a> </li>
+                                <li> <a href="mentorShip.html"> MentorShip </a> </li>
+                                <li> <a href="eventCalender.html"> Event Calender </a> </li>
+                                <li><a href="nationalConference.html">National Conference</a></li>
+                                <li><a href="programLeadership.html">Program Leadership</a></li>
+                                <li><a href="uihMedia.html">UIH Media</a></li>
+                                <li><a href="eventCalender.html">Event Calender</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> About Us
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="GeneralDescription.html"> General Description </a></li>
+                                <li><a href="courseCertificate.html"> Certificate Course on Innovation and
+                                        Entrepreneurship</a></li>
+                                <li><a href="Innovation.html"> Innovation and Entrepreneurship Lecture Series </a></li>
+                                <li><a href="InnovationCohort.html"> Innovation Cohort </a></li>
+                                <li><a href="intellectualProperty.html"> Intellectual Property Rights  </a></li>
+                                <li><a href="mentorShip.html"> Mentorship for University-Based  Incubation </a></li>
+                                <li><a href="industry.html"> Industry-Academia Collaboration </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Apply Now
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="courseCertificate.html"> Certificate Course on Innovation and
+                                        Entrepreneurship </a></li>
+                                <li><a href="Innovation.html"> Innovation and Entrepreneurship Lecture Series </a></li>
+                                <li><a href="InnovationCohort.html"> Innovation COhort </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Join Us
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="becomeMember.html"> Become a Partner </a></li>
+                                <li><a href="BecomeMentor.html"> Become a Mentor </a></li>
+                                <li><a href="program.html"> Young Professional Program </a></li>
+                                <li><a href="jobOpportunities.html"> Job Opportunities </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Our
+                                Experts
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="mentors.html"> Mentors  </a></li>
+                                <li><a href="#"> Instructors </a></li>
+                                <li><a href="#"> Specialists </a></li>
+                                <li><a href="#"> Guest Speakers </a></li>
+                                <li><a href="#"> Job Opportunities </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Success
+                                Metrics
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSix">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#"> Dashboard </a></li>
+                                <li><a href="#"> Impact Stories </a></li>
+                                <li><a href="#"> Profile of Innovation Teams </a></li>
+                                <li><a href="#"> Our Graduates </a></li>
+                                <li><a href="#"> Testimony </a></li>
+                                <li><a href="uihMedia.html"> UIH in Media </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Events
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSeven">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#"> Event Clanedar </a></li>
+                                <li><a href="#"> National Ip Conference 2024 </a></li>
+                                <li><a href="#"> Innovation Challnage Competition 2024 </a></li>
+                                <li><a href="#"> Event Gallery </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Resources
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingEight">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#"> Q&A </a></li>
+                                <li><a href="#"> Blog </a></li>
+                                <li><a href="#"> Video Tutorials </a></li>
+                                <li><a href="#"> Downloadable Documents </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----- Header Section End ----->
+
+    <!-- Sub Hero Section Start -->
+    <section>
+        <div class="sub-hero" style="background-image: url(./assets/images/futureEvent-Bg.png);">
+            <div class="container">
+                <div class="sub-hero-contant text-center" data-aos="fade-up" data-aos-easing="ease"
+                    data-aos-delay="400">
+                    <div class="page-route">
+                        IP Conference
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Sub Section End  -->
+
+    <!-- Upcooming Event Section Start -->
+    <section class="upcoming-event-dark section-padding">
+        <div class="dark-bg-shape">
+            <img src="./assets/images/darkBg.webp" alt="">
+        </div>
+        <div class="container">
+            <div class="dark-section-header">
+                <h2> Upcoming Event </h2>
+                <div class="section-action">
+                    <!-- <button> All Event </button> -->
+                    <button> <ion-icon name="menu-outline"></ion-icon> </button>
+                </div>
+            </div>
+
+            <div class="upcoming-gallary mt-5">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="event-gallar-slider">
+                            <div class="swiper eventGallery">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="event-img">
+                                            <img src="./assets/images/up-event-1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="event-img">
+                                            <img src="./assets/images/about-home.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-event-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="event-register-card">
+                            <h4> Cohort Catapult 🌋 Build Your Dream Team Workshop 4 </h4>
+                            <h5 class="mt-3"> <span>EVENT BY:</span> DATA-CAMP COMMUNITY</h5>
+                            <div class="event-time mt-3">
+                                <div class="row">
+                                    <div class="col-lg-6 col-6">
+                                        <h6>Start Time</h6>
+                                        <h5> 21 March 2024 <br> 11.00 AM - 2.00 PM </h5>
+                                    </div>
+                                    <div class="col-lg-6 col-6">
+                                        <h6> End Time</h6>
+                                        <h5> 22 March 2024 <br> 11.00 AM - 2.00 PM </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event-time mt-3">
+                                <h6> Event Starts In </h6>
+                                <ul class="event-live-time">
+                                    <li id="time1"></li>
+                                    <li id="time2"></li>
+                                    <li id="time3"></li>
+                                    <li id="time4"></li>
+                                </ul>
+                            </div>
+                            <button class="register-btn">
+                                Register for this event
+                            </button>
+                            <div class="extreme text-center mt-3">
+                                Enter as an <span>Organizer , Speaker</span> OR <span>Exhibitor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overview-text mt-5">
+                <h4> OverView </h4>
+                <p>Whether you’re looking to build a kickass financial plan, launch a groovy marketing campaign or
+                    rocket launch sales – the Cohort Catapult program is here to support you! Delivered by this program
+                    aims to support aspiring founders, small business owners, university students and entrepreneurs by
+                    providing the necessary tools to grow their business.Whether you’re looking to build a kickass
+                    financial plan, launch a groovy marketing campaign or rocket launch sales – the Cohort Catapult
+                    program is here to support you! Delivered by this program aims to support aspiring founders, small
+                    business owners, university students and entrepreneurs by providing the necessary tools to grow
+                    their business. Whether you’re looking to build a kickass financial plan, launch a groovy marketing
+                    campaign .</p>
+            </div>
+
+            <div class="schedule-wrapper">
+                <h4> Schedule </h4>
+                <div class="schedule-nav mt-3">
+                    <div class="nav flex-row nav-pills me-3" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">
+                            <span>21</span> March
+                        </button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">
+                            <span>22</span> March
+                        </button>
+                    </div>
+                </div>
+                <div class="tab-content schedule-tabs" id="v-pills-tabContent">
+                    <div class="tab-pane event-card-tab fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <div class="event-perform-item">
+                            <div class="time">7:00 PM - 7:45 PM</div>
+                            <h3>Opening Session: A Tipping Point in Data Democratization </h3>
+
+                            <div class="performer-info">
+                                <div class="profile">
+                                    <img src="./assets/images/profile.png" alt="">
+                                </div>
+                                <div class="profile-data">
+                                    <div class="name-data">Jonathan Cornellsen</div>
+                                    <h6>CEO, DataCamp, Rajshahi University</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-perform-item">
+                            <div class="time">7:00 PM - 7:45 PM</div>
+                            <h3>Opening Session: A Tipping Point in Data Democratization </h3>
+
+                            <div class="performer-info">
+                                <div class="profile">
+                                    <img src="./assets/images/profile.png" alt="">
+                                </div>
+                                <div class="profile-data">
+                                    <div class="name-data">Jonathan Cornellsen</div>
+                                    <h6>CEO, DataCamp, Rajshahi University</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-perform-item">
+                            <div class="time">7:00 PM - 7:45 PM</div>
+                            <h3>Opening Session: A Tipping Point in Data Democratization </h3>
+
+                            <div class="performer-info">
+                                <div class="profile">
+                                    <img src="./assets/images/profile.png" alt="">
+                                </div>
+                                <div class="profile-data">
+                                    <div class="name-data">Jonathan Cornellsen</div>
+                                    <h6>CEO, DataCamp, Rajshahi University</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane event-card-tab fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <div class="event-perform-item">
+                            <div class="time">7:00 PM - 7:45 PM</div>
+                            <h3>Opening Session: A Tipping Point in Data Democratization </h3>
+
+                            <div class="performer-info">
+                                <div class="profile">
+                                    <img src="./assets/images/profile.png" alt="">
+                                </div>
+                                <div class="profile-data">
+                                    <div class="name-data">Jonathan Cornellsen</div>
+                                    <h6>CEO, DataCamp, Rajshahi University</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-perform-item">
+                            <div class="time">7:00 PM - 7:45 PM</div>
+                            <h3>Opening Session: A Tipping Point in Data Democratization </h3>
+
+                            <div class="performer-info">
+                                <div class="profile">
+                                    <img src="./assets/images/profile.png" alt="">
+                                </div>
+                                <div class="profile-data">
+                                    <div class="name-data">Jonathan Cornellsen</div>
+                                    <h6>CEO, DataCamp, Rajshahi University</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-speaker-wrapper">
+                <h3>Speaker</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="event-speaker-card" data-bs-toggle="modal" data-bs-target="#speakerModal">
+                            <div class="speaker-profile">
+                                <img src="./assets/images/speaker-1.png" alt="">
+                            </div>
+                            <h4> Jonathan Cornellsen </h4>
+                            <h6> <strong>CEO</strong>, DataCamp </h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="event-speaker-card" data-bs-toggle="modal" data-bs-target="#speakerModal">
+                            <div class="speaker-profile">
+                                <img src="./assets/images/speaker-2.png" alt="">
+                            </div>
+                            <h4> Jonathan Cornellsen </h4>
+                            <h6> <strong>Founder</strong> & <strong>Chief Data Storytiller</strong> Analytics Hero </h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="event-speaker-card" data-bs-toggle="modal" data-bs-target="#speakerModal">
+                            <div class="speaker-profile">
+                                <img src="./assets/images/speaker-3.png" alt="">
+                            </div>
+                            <h4> Jonathan Cornellsen </h4>
+                            <h6> <strong>CEO</strong>, DataCamp </h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="event-speaker-card" data-bs-toggle="modal" data-bs-target="#speakerModal">
+                            <div class="speaker-profile">
+                                <img src="./assets/images/speaker-4.png" alt="">
+                            </div>
+                            <h4> Jonathan Cornellsen </h4>
+                            <h6> <strong>CEO</strong>, DataCamp </h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="event-speaker-card" data-bs-toggle="modal" data-bs-target="#speakerModal">
+                            <div class="speaker-profile">
+                                <img src="./assets/images/speaker-2.png" alt="">
+                            </div>
+                            <h4> Jonathan Cornellsen </h4>
+                            <h6> <strong>CEO</strong>, DataCamp </h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="event-speaker-card" data-bs-toggle="modal" data-bs-target="#speakerModal">
+                            <div class="speaker-profile">
+                                <img src="./assets/images/speaker-5.png" alt="">
+                            </div>
+                            <h4> Jonathan Cornellsen </h4>
+                            <h6> <strong>CEO</strong>, DataCamp </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Upcooming Event Section  End -->
+
+    <!-- Speaker Card Modal -->
+    <div class="modal fade speaker-modal" id="speakerModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="speaker-data-content">
+                        <div class="speaker-profile">
+                            <img src="./assets/images/speaker-2.png" alt="">
+                        </div>
+                        <h4> Jonathan Cornellsen </h4>
+                        <h6> <strong>CEO</strong>, DataCamp </h6>
+                        <p>Libby is responsible for strengthening upskilling and reskilling efforts for Alteryx
+                            customers to enable a culture of analytics, scaling the presence of the Alteryx SparkED
+                            education program and furthering diversity and inclusion in the workplace.As the former
+                            Chief Customer Officer,</p>
+                        <p>Libby has helped many Fortune 100 executives to identify and seize market opportunities,
+                            outsmart their competitors, and drive more revenue from their current businesses using
+                            analytics.</p>
+                    </div>
+
+                    <div class="asigned-warpper">
+                        <h4>Assigned talks and events (1) </h4>
+                        <div class="assigned-item">
+                            <h5> Chat GPT & Generative AI: Boon or Bane for Data Democratization? </h5>
+                            <div class="date"> 8:50 PM - 9:45 PM , 21 March 2024 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section Start -->
+    <footer id="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5">
+                        <div class="footer-profile">
+                            <div class="logo">
+                                <img src="./assets/images/logo-W.png" alt="">
+                            </div>
+                            <h4> This Is Footer Profile </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <div class="footer-main-part">
+                            <div class="footer-top-part">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <div class="social-item">
+                                            <h5> Follow Us </h5>
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                            <ion-icon name="logo-youtube"></ion-icon>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <h5> Subscribe </h5>
+                                        <p>Subscribe to stay tuned for new web design and latest updates. Let's do it!
+                                        </p>
+
+                                        <div class="subscribe-input">
+                                            <input type="text" placeholder="Enter your E-mail" class="from_control" />
+                                            <div class="subscribe_btn">
+                                                Subscribe
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-nav-part">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Product </h4>
+                                        <ul>
+                                            <li><a href="#"> Landing Page </a></li>
+                                            <li><a href="#"> Popup Builder</a></li>
+                                            <li><a href="#"> Web-design</a></li>
+                                            <li><a href="#"> Content</a></li>
+                                            <li><a href="#">Integrations</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Use Cases </h4>
+                                        <ul>
+                                            <li><a href="#"> Web-designers </a></li>
+                                            <li><a href="#"> Marketers </a></li>
+                                            <li><a href="#"> Small Business </a></li>
+                                            <li><a href="#"> Website Builder</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Resources </h4>
+                                        <ul>
+                                            <li><a href="#"> Academy </a></li>
+                                            <li><a href="#"> Blog</a></li>
+                                            <li><a href="#"> Themes</a></li>
+                                            <li><a href="#"> Hosting</a></li>
+                                            <li><a href="#">Developers</a></li>
+                                            <li><a href="#">Support</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Company </h4>
+                                        <ul>
+                                            <li><a href="#"> About Us </a></li>
+                                            <li><a href="#"> Careers</a></li>
+                                            <li><a href="#"> FAQs</a></li>
+                                            <li><a href="#"> Teams</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copy Right -->
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <span> © Copyright NDE. All Rights Reserved & Designed by Motion Mishu </span>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+
+    <!-- Go to Top -->
+    <a href="#top" class="go-top" data-go-top title="Go to Top">
+        <ion-icon name="arrow-up"></ion-icon>
+    </a>
+
+    <!-- Javascript Script Link
+    --------------------------------------------------->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Boostarp-5 Js CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Swipper Js Script CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- AOS Animation CDN Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- IonIcon CDN Link -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/custom.js"></script>
+</body>

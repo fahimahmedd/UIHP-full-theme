@@ -1,0 +1,50 @@
+// .genaralCard{
+//     .genaral-card-wrapper{
+        
+//     }
+// }
+
+.general-card{
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    height: 450px;
+    &:hover{
+        background-color: $primaryColor;
+        transition: $transition;
+    }
+    &:hover .g-card-content h4{
+        color: $whiteColor;
+    }
+    &:hover .g-card-content p{
+        color: $whiteColor;
+    }
+    &:hover .g-card-content a{
+        color: $whiteColor;
+    }
+    .g-card-img{
+        height: 240px;
+        width: 100%;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .g-card-content{
+        padding: 16px;
+        h4{
+            font-weight: 500;
+            font-size: 18px;
+        }
+        p{
+            @include text-ellips-3
+        }
+        a{
+            color: $primaryColor;
+            font-size: 14px;
+            &:hover{
+                color: $blackColor;
+            }
+        }
+    }
+}

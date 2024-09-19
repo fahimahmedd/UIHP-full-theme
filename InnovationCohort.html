@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UIHP - University Innovation HUB Program </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <!-- Boostarp - 5 CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- AOS animation CDN link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Style Shit (Main) Compile from SCSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Extra Custom CSS (It's out of scss compiler) -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Responsive Style Shit -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body id="top">
+
+    <!----- Header Section Start ----->
+    <header id="header" class="header" data-header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-2">
+                        <a class="header-hamburger" data-bs-toggle="offcanvas" href="#headerOffcanvas" role="button"
+                            aria-controls="headerOffcanvas">
+                            <ion-icon name="grid"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-8">
+                        <a href="home.html">
+                            <div class="header-logo">
+                                <img src="./assets/images/logo-W.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 d-lg-block d-md-block d-sm-block d-none">
+                        <div class="social-item">
+                            <span> Follow Us : </span>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <ion-icon name="logo-twitter"></ion-icon>
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Side OFFCANVAS -->
+    <div class="offcanvas offcanvas-start headerOffcanvas" tabindex="-1" id="headerOffcanvas"
+        aria-labelledby="headerOffcanvasLabel">
+        <div class="offcanvas-header">
+            <div class="offcanvas-title" id="headerOffcanvasLabel">
+                <img src="./assets/images/H-img-1.png" alt="">
+                <img src="./assets/images/H-img-2.png" alt="">
+                <img src="./assets/images/H-img-3.png" alt="">
+                <img src="./assets/images/H-img-4.png" alt="">
+                <img src="./assets/images/H-img-5.png" alt="">
+            </div>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion headerAccordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Program
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <ul>
+                                <li> <a href="program.html"> About The Program </a> </li>
+                                <li> <a href="missionVission.html"> Mission & Vision </a> </li>
+                                <li> <a href="allEvent.html"> All Event </a> </li>
+                                <li> <a href="becomeMember.html"> Become Member </a> </li>
+                                <li> <a href="courseCertificate.html"> Course Certificate </a> </li>
+                                <li> <a href="faq.html"> FAQ </a> </li>
+                                <li> <a href="futureEvent.html"> Future Event </a> </li>
+                                <li> <a href="GeneralDescription.html"> General Description </a> </li>
+                                <li> <a href="industry.html"> Industry </a> </li>
+                                <li> <a href="Innovation.html"> Innovation </a> </li>
+                                <li> <a href="InnovationCohort.html"> Innovation Cohort </a> </li>
+                                <li> <a href="intellectualProperty.html"> Intellectual Property </a> </li>
+                                <li> <a href="jobOpportunities.html"> Job Opportunities </a> </li>
+                                <li> <a href="mentors.html"> Mentors </a> </li>
+                                <li> <a href="mentorShip.html"> MentorShip </a> </li>
+                                <li> <a href="eventCalender.html"> Event Calender </a> </li>
+                                <li><a href="nationalConference.html">National Conference</a></li>
+                                <li><a href="programLeadership.html">Program Leadership</a></li>
+                                <li><a href="uihMedia.html">UIH Media</a></li>
+                                <li><a href="eventCalender.html">Event Calender</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> About Us
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="GeneralDescription.html"> General Description </a></li>
+                                <li><a href="courseCertificate.html"> Certificate Course on Innovation and
+                                        Entrepreneurship</a></li>
+                                <li><a href="Innovation.html"> Innovation and Entrepreneurship Lecture Series </a></li>
+                                <li><a href="InnovationCohort.html"> Innovation Cohort </a></li>
+                                <li><a href="intellectualProperty.html"> Intellectual Property Rights  </a></li>
+                                <li><a href="mentorShip.html"> Mentorship for University-Based  Incubation </a></li>
+                                <li><a href="industry.html"> Industry-Academia Collaboration </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Apply Now
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="courseCertificate.html"> Certificate Course on Innovation and
+                                        Entrepreneurship </a></li>
+                                <li><a href="Innovation.html"> Innovation and Entrepreneurship Lecture Series </a></li>
+                                <li><a href="InnovationCohort.html"> Innovation COhort </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Join Us
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="becomeMember.html"> Become a Partner </a></li>
+                                <li><a href="BecomeMentor.html"> Become a Mentor </a></li>
+                                <li><a href="program.html"> Young Professional Program </a></li>
+                                <li><a href="jobOpportunities.html"> Job Opportunities </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Our
+                                Experts
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="mentors.html"> Mentors  </a></li>
+                                <li><a href="#"> Instructors </a></li>
+                                <li><a href="#"> Specialists </a></li>
+                                <li><a href="#"> Guest Speakers </a></li>
+                                <li><a href="#"> Job Opportunities </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Success
+                                Metrics
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSix">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#"> Dashboard </a></li>
+                                <li><a href="#"> Impact Stories </a></li>
+                                <li><a href="#"> Profile of Innovation Teams </a></li>
+                                <li><a href="#"> Our Graduates </a></li>
+                                <li><a href="#"> Testimony </a></li>
+                                <li><a href="uihMedia.html"> UIH in Media </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Events
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSeven">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#"> Event Clanedar </a></li>
+                                <li><a href="#"> National Ip Conference 2024 </a></li>
+                                <li><a href="#"> Innovation Challnage Competition 2024 </a></li>
+                                <li><a href="#"> Event Gallery </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight">
+                            <div class="d-flex align-items-center"><ion-icon name="albums-outline"></ion-icon> Resources
+                            </div>
+                            <ion-icon class="close-icon" name="chevron-down-outline"></ion-icon>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingEight">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#"> Q&A </a></li>
+                                <li><a href="#"> Blog </a></li>
+                                <li><a href="#"> Video Tutorials </a></li>
+                                <li><a href="#"> Downloadable Documents </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----- Header Section End ----->
+
+    <!-- Sub Hero Section Start -->
+    <section>
+        <div class="sub-hero" style="background-image: url(./assets/images/chorotBg.png);">
+            <div class="container">
+                <div class="sub-hero-contant text-center" data-aos="fade-up" data-aos-easing="ease"
+                    data-aos-delay="400">
+                    <div class="page-route">
+                        Innovation COhort
+                    </div>
+                    <button class="apply-btn">
+                        Apply Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Sub Section End  -->
+
+    <!-- Common Feature Section  Strart-->
+    <section class="common-feature-section section-padding">
+        <div class="container">
+            <div class="common-feature-section-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="common-feature-img" data-aos="fade-right" data-aos-easing="ease"
+                            data-aos-delay="400">
+                            <img src="./assets/images/common-F-1.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="common-feature-content">
+                            <h6>Perfect Design </h6>
+                            <h2>Why IC?</h2>
+                            <p> The Innovation Cohort is an exciting part of the University Innovation Hub Program
+                                tailored just for you – the creative thinkers, the dreamers, and the doers. It's where
+                                your ideas get to see the light of day, transforming from mere thoughts into tangible,
+                                market-ready innovations. In this hands-on journey, you'll team up with fellow students,
+                                faculty, and alumni to explore the full spectrum of bringing an idea to life, from the
+                                initial spark of inspiration to the final stages of commercialization. Under the
+                                guidance of experienced mentors and through engaging workshops, you'll develop not just
+                                a product or service, but also the entrepreneurial mindset and skills crucial for
+                                thriving in today's innovation-centric world. This is your playground for innovation,
+                                where learning meets doing, and your ideas can flourish and impact the real world.
+                                Welcome to the Innovation Cohort – where your entrepreneurial journey begins</p>
+                            <button class="apply-btn">
+                                Apply Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Common Feature Section End -->
+
+    <!-- Text Typography Section Start -->
+    <section class="text-typography">
+        <div class="container">
+            <div class="text-typography-wrapper">
+                <h2 class="mb-4"> <strong>Who can Join? (Eligibility)</strong> </h2>
+                <p>Team Composition: Applicants must apply as teams, not individually. This fosters a collaborative
+                    environment crucial for successful innovation projects.</p>
+                <p>Team Size and Diversity: Each team should consist of 3-5 members.</p>
+                <p>Gender Diversity: To ensure inclusivity and promote gender diversity, each team must include at least
+                    one female member. This requirement emphasizes the program's commitment to supporting diverse
+                    innovation ecosystems.</p>
+                <p>Affiliation: Teams can be made up of students (including 3rd and final year students), alumni, or
+                    faculty members from any of the participating universities, highlighting the program's broad reach
+                    within the academic community.</p>
+                <p>No Prior Experience Required: Importantly, applicants do not need to have prior coding experience.
+                    This opens up the program to a wider audience, ensuring that individuals from non-technical
+                    backgrounds can also participate and contribute their ideas and skills to innovation projects.</p>
+                <h2 class="mb-4"><strong> Benefit of the course </strong></h2>
+                <ul>
+                    <li>Collaborative Learning Environment: Dive into a team-based experience where diversity of thought
+                        and expertise converge. Working alongside peers from different disciplines, you'll harness the
+                        collective power of your diverse backgrounds to tackle challenges and uncover novel solutions.
+                    </li>
+                    <li> Mentorship from Industry Experts: Receive unparalleled guidance and insights from seasoned
+                        mentors who have navigated the path of innovation and entrepreneurship. Their experience is your
+                        roadmap, offering personalized advice and critical feedback to steer your project towards
+                        success.</li>
+                    <li> Hands-on Experience: Transition from theoretical knowledge to practical application. The
+                        Innovation Cohort enables you to develop prototypes and Minimum Viable Products (MVPs),
+                        providing a tangible manifestation of your innovative ideas and a critical step towards
+                        commercialization.</li>
+                    <li>Access to Resources and Workshops: Benefit from a wealth of resources, including workshops that
+                        cover essential topics like ideation, prototyping, business modeling, and pitching. These
+                        sessions are designed to equip you with the tools and knowledge necessary for your
+                        entrepreneurial journey.</li>
+                    <li> Networking Opportunities: Connect with like-minded individuals, industry professionals, and
+                        potential investors. The Innovation Cohort is not just a program; it's a gateway to a vibrant
+                        community of innovators and entrepreneurs, offering endless possibilities for collaboration and
+                        growth.</li>
+                    <li> Foster an Entrepreneurial Mindset: Cultivate resilience, adaptability, and a problem-solving
+                        approach—qualities essential for success in today's dynamic world. The Innovation Cohort
+                        challenges you to think big, take calculated risks, and embrace failure as a stepping stone to
+                        success.
+                    </li>
+                    <li>Showcase Your Innovation: Gain the opportunity to present your project to a wider audience,
+                        including potential investors and industry leaders. This visibility can open doors to funding,
+                        partnerships, and invaluable support as you move forward.</li>
+                    <li>Empower Your Career: Whether you aspire to launch your own startup or innovate within existing
+                        organizations, the skills and experiences gained through the Innovation Cohort will set you
+                        apart in the job market, preparing you for a future as a change maker.</li>
+                </ul>
+                <h2 class="mb-4"><strong> Who are the Instructors? </strong></h2>
+                <p>In the dynamic landscape of the Innovation Cohort, part of our University Innovation Hub Program,
+                    you'll have the unique opportunity to learn from two distinct types of mentors: Business Mentors and
+                    Technical Mentors.</p>
+                <p>Business Mentors are your navigators in the vast ocean of commercialization. They bring to the table
+                    their rich experience in business strategies, financial modeling, marketing tactics, and the
+                    nitty-gritty of navigating the marketplace. With them, you'll learn how to turn your innovative
+                    ideas into viable business ventures that resonate with your target audience and attract potential
+                    investors.</p>
+                <p>On the flip side, Technical Mentors are the architects and builders of your innovation journey. They
+                    possess deep knowledge in product development, from the inception of an idea to the creation of a
+                    tangible prototype or a Minimum Viable Product (MVP). These mentors will guide you through design
+                    thinking processes, prototyping methodologies, and the technical validation of your ideas, ensuring
+                    your innovations can withstand real-world challenges.</p>
+                <p>Together, these mentors form the backbone of the Innovation Cohort, offering you a balanced education
+                    in both the technical prowess and business acumen needed to bring your innovative projects to life.
+                    This holistic mentoring approach ensures you're well-equipped to navigate the complexities of
+                    entrepreneurship and innovation, making your journey from concept to commercialization both
+                    enlightening and successful.</p>
+                <p>Dive into this journey with us, where your ideas will not only be nurtured but transformed into
+                    impactful solutions ready for the world stage.</p>
+
+                <h2 class="mb-4"> <strong>How to Apply?</strong> </h2>
+                <h2 class="mb-4"> <strong>What's the Evaluation Method?</strong> </h2>
+                <p>Innovation Cohort teams are assessed through a well-defined evaluation process that includes the
+                    following key components</p>
+                <p>Lean Canvas Readiness: This looks at how well your team has developed the Business Model Canvas. It
+                    checks if all parts are detailed and researched thoroughly.</p>
+                <p>Product Development Status: Evaluates the stage your product is in, from the initial idea to being
+                    ready for the market. It considers the progress and milestones you've achieved.</p>
+                <p>USP (Unique Selling Proposition) and CSP (Core Service Proposition): Assesses how clearly and
+                    strongly your product's unique benefits and core services are defined compared to competitors.</p>
+                <p>Target Market Identification: Determines how well you've identified your core customers — the
+                    specific group of people your product or service is aimed at.</p>
+                <p>Unit Economics: Reviews the profitability of each unit sold, ensuring that revenues exceed the costs,
+                    which confirms the financial viability of your product.</p>
+                <p>Brand Positioning: Evaluates your brand's position in the market, ensuring it resonates with
+                    customers and stands out from the competition.</p>
+                <p>Financial Modelling: Looks at your business's financial plan, forecasting future revenues, costs, and
+                    the overall economic feasibility.</p>
+                <p>Pitch Deck Preparation: Assesses how prepared your pitch deck is. This is crucial for attracting
+                    investors and partners.</p>
+                <p>Team Composition: Reviews the diversity and skill set of your team to ensure it's well-rounded and
+                    capable of driving the project forward.</p>
+                <p>Team Member Attendance: Monitors how regularly team members participate in program activities, which
+                    is crucial for maintaining momentum towards project goals.</p>
+                <h5>Evaluation Process:</h5>
+                <p>Weekly Evaluations: Your team will be evaluated weekly by mentors, focusing on strengths, weaknesses,
+                    and areas for improvement.Segmented Evaluation Sheet: There are five segments in the evaluation
+                    sheet for assessments up to the 16th week. Mentors record their observations, providing scores in
+                    specific areas.Cumulative Score: The scores and assessments up until the 8th week determine which
+                    teams will pitch to the Jury for funding.Jury Process: This includes both the mentorship team's
+                    scoring and the Jury's assessment after your presentations.This evaluation process is designed to
+                    track and support your progress closely, offering feedback to help your innovative project succeed.
+                </p>
+                <h2 class="mb-4"> <strong>Certification</strong> </h2>
+
+            </div>
+        </div>
+    </section>
+    <!-- Typography Section   End -->
+
+
+    <!-- Our Team Section Start -->
+    <section class="our-team section-padding" id="our-team">
+        <div class="container">
+            <div class="section-header">
+                <h5>Meet our dream team</h5>
+                <p>We’re dedicated group of Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium</p>
+            </div>
+            <div class="team-wrapper">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="team-mamber">
+                            <div class="mamber-img">
+                                <img src="./assets/images/team-1.png" alt="">
+                            </div>
+                            <div class="mamber-data">
+                                <h5> Kristopher A. Davis </h5>
+                                <h6> Designation Goes here </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="team-mamber">
+                            <div class="mamber-img">
+                                <img src="./assets/images/team-2.png" alt="">
+                            </div>
+                            <div class="mamber-data">
+                                <h5> Kristopher A. Davis </h5>
+                                <h6> Designation Goes here </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="team-mamber">
+                            <div class="mamber-img">
+                                <img src="./assets/images/team-3.png" alt="">
+                            </div>
+                            <div class="mamber-data">
+                                <h5> Kristopher A. Davis </h5>
+                                <h6> Designation Goes here </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="team-mamber">
+                            <div class="mamber-img">
+                                <img src="./assets/images/team-4.png" alt="">
+                            </div>
+                            <div class="mamber-data">
+                                <h5> Kristopher A. Davis </h5>
+                                <h6> Designation Goes here </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="team-mamber">
+                            <div class="mamber-img">
+                                <img src="./assets/images/team-5.png" alt="">
+                            </div>
+                            <div class="mamber-data">
+                                <h5> Kristopher A. Davis </h5>
+                                <h6> Designation Goes here </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="team-mamber">
+                            <div class="mamber-img">
+                                <img src="./assets/images/team-6.png" alt="">
+                            </div>
+                            <div class="mamber-data">
+                                <h5> Kristopher A. Davis </h5>
+                                <h6> Designation Goes here </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Team Section End -->
+
+    <!-- Footer Section Start -->
+    <footer id="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5">
+                        <div class="footer-profile">
+                            <div class="logo">
+                                <img src="./assets/images/logo-W.png" alt="">
+                            </div>
+                            <h4> This Is Footer Profile </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <div class="footer-main-part">
+                            <div class="footer-top-part">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <div class="social-item">
+                                            <h5> Follow Us </h5>
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                            <ion-icon name="logo-youtube"></ion-icon>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <h5> Subscribe </h5>
+                                        <p>Subscribe to stay tuned for new web design and latest updates. Let's do it!
+                                        </p>
+
+                                        <div class="subscribe-input">
+                                            <input type="text" placeholder="Enter your E-mail" class="from_control" />
+                                            <div class="subscribe_btn">
+                                                Subscribe
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-nav-part">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Product </h4>
+                                        <ul>
+                                            <li><a href="#"> Landing Page </a></li>
+                                            <li><a href="#"> Popup Builder</a></li>
+                                            <li><a href="#"> Web-design</a></li>
+                                            <li><a href="#"> Content</a></li>
+                                            <li><a href="#">Integrations</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Use Cases </h4>
+                                        <ul>
+                                            <li><a href="#"> Web-designers </a></li>
+                                            <li><a href="#"> Marketers </a></li>
+                                            <li><a href="#"> Small Business </a></li>
+                                            <li><a href="#"> Website Builder</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Resources </h4>
+                                        <ul>
+                                            <li><a href="#"> Academy </a></li>
+                                            <li><a href="#"> Blog</a></li>
+                                            <li><a href="#"> Themes</a></li>
+                                            <li><a href="#"> Hosting</a></li>
+                                            <li><a href="#">Developers</a></li>
+                                            <li><a href="#">Support</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                                        <h4> Company </h4>
+                                        <ul>
+                                            <li><a href="#"> About Us </a></li>
+                                            <li><a href="#"> Careers</a></li>
+                                            <li><a href="#"> FAQs</a></li>
+                                            <li><a href="#"> Teams</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copy Right -->
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <span> © Copyright NDE. All Rights Reserved & Designed by Motion Mishu </span>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Go to Top -->
+    <a href="#top" class="go-top" data-go-top title="Go to Top">
+        <ion-icon name="arrow-up"></ion-icon>
+    </a>
+
+    <!-- Javascript Script Link
+    --------------------------------------------------->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Boostarp-5 Js CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- AOS Animation CDN Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- IonIcon CDN Link -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/custom.js"></script>
+</body>
